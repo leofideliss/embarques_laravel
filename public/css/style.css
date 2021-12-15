@@ -1,0 +1,106 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.div-form {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-table {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.lf-table {
+    font-size: 13px;
+    text-align: center;
+}
+
+
+/* Header */
+
+.div-header {
+    width: 100%;
+    height: 10%;
+    background-color: #000000aa;
+    color: #fff;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    text-align: left;
+}
+
+.div-header ul {
+    list-style: none;
+    height: 25px;
+    width: 100%;
+}
+
+.div-header li {
+    display: inline-flex;
+    padding: 5px;
+    margin-right: 15px;
+    font-size: 11pt;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+
+/* .div-header li:hover {
+    color: #ecb53c;
+} */
+
+.div-header li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.div-header li a:hover {
+    color: #ecb53c;
+    text-decoration: none;
+}
+
+
+/* Fatura */
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.table th {
+    padding: 5px 3px 5px 3px;
+    width: 100px;
+}
+
+.centralize {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.login-btn:hover {
+    text-decoration: none;
+    color: #ecb53c;
+    margin-right: 10px;
+}
